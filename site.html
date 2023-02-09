@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Site Ivana</title>
+
+<link rel="icon" type="image/png" href="android-chrome-512x512.png">
+	<style type="text/css">
+		*{
+			margin: 0;
+		}
+		header{
+			height: 150px;
+			background-color: #cfe2f3;
+		}
+		h1{
+			text-align: center;
+			padding-top: 50px;
+		}
+		#menu{
+			width: 20%;
+			height: 100%;
+			background-color: #f3cfe2;
+			float: left;
+		}
+		#content{
+			width: 80%;
+			background-color: #e2f3cf;
+			float: left;
+		}
+		h2{
+			text-align: center;
+			font-weight: 700;
+			color: black;
+		}	
+		h3{
+			text-align: center;
+			font-weight: 700;
+			color: black;
+		}	
+		footer{
+			height: 50px;
+			background-color: #f3e0cf;
+			clear: both;
+		}
+
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 80%;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}	
+#image1{
+display: block;
+margin: 0 auto;
+width: 50%;
+border-radius: 50%;
+box-shadow: 10px -10px 100px lightblue;
+margin-top: 50px;
+}
+iframe{
+	margin: auto;
+	display: block;
+}
+</style>
+</head>
+<body>
+<header><h1>Сайт Івана</h1></header>
+<div id="menu">
+	<h2>Мої сайти:</h2>
+
+<a href="greetings.html" target="_blank"><button class="button-89" role="button">Greetings</button></a>
+<a href="guess.html" target="_blank"><button class="button-89" role="button">Guess</button></a>
+<a href="index.html" target="_blank"><button class="button-89" role="button">Index</button></a>
+<a href="random.html" target="_blank"><button class="button-89" role="button">Random</button></a>
+</div>
+<div id="content"><h2>Машини:</h2>
+<a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0" target="_blank"><img src="https://static.espreso.tv/uploads/article/2442937/images/im578x383-dodge_challenger_srt_demon_8.jpeg" id="image1"></a>
+<h2>Відео:</h2>
+<iframe width="800" height="450"  src="https://www.youtube.com/embed/OS1bB3rm78I" title="City Car Driving - Toyota Land Cruiser 100 | Fast Driving" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<footer><h2>Мої контакти:</h2></footer>
+<footer><h3>Номер телефону: +380984839647</h3></footer>
+<footer><h3>Пошта: Ivan@gmail.com</h3></footer>
+</body>
+</html>
